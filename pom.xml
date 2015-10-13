@@ -82,9 +82,9 @@
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test</connection>
-		<url>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test</url>
-		<developerConnection>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test</developerConnection>
+		<connection>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test1</connection>
+		<url>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test1</url>
+		<developerConnection>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test1</developerConnection>
 	</scm>
 
 	<dependencyManagement>
