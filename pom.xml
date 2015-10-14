@@ -81,7 +81,7 @@
 		</snapshotRepository>
 	</distributionManagement>
 
-	<scm> 
+	<scm>
 		<connection>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test1</connection>
 		<url>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test1</url>
 		<developerConnection>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test1</developerConnection>
@@ -300,16 +300,37 @@
 					<artifactId>maven-release-plugin</artifactId>
 					<version>2.5.2</version>
 					<dependencies>
-					 	<dependency>
+						<dependency>
 							<groupId>org.apache.maven.scm</groupId>
-							<artifactId>maven-scm-provider-gitexe</artifactId>
+							<artifactId>maven-scm-provider-jgit</artifactId>
+							<!-- <artifactId>maven-scm-provider-gitexe</artifactId> -->
 							<version>1.9.4</version>
 						</dependency>
 					</dependencies>
 					<configuration>
+						<providerImplementations>
+							<git>jgit</git>
+						</providerImplementations>
 						<tagBase>http://git.intra.weibo.com/shanpeng/scm-git-test1/tags</tagBase>
-					    <branchBase>http://git.intra.weibo.com/shanpeng/scm-git-test1/branches</branchBase>
+						<branchBase>http://git.intra.weibo.com/shanpeng/scm-git-test1/branches</branchBase>
 					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-scm-plugin</artifactId>
+					<version>1.9.4</version>
+					<configuration>
+						<providerImplementations>
+							<git>jgit</git>
+						</providerImplementations>
+					</configuration>
+					<dependencies>
+						<dependency>
+							<groupId>org.apache.maven.scm</groupId>
+							<artifactId>maven-scm-provider-jgit</artifactId>
+							<version>1.9.4</version>
+						</dependency>
+					</dependencies>
 				</plugin>
 				<!--构建项目站点报告插件 -->
 				<plugin>
