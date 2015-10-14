@@ -302,8 +302,8 @@
 					<dependencies>
 						<dependency>
 							<groupId>org.apache.maven.scm</groupId>
-							<artifactId>maven-scm-provider-jgit</artifactId>
-							<!-- <artifactId>maven-scm-provider-gitexe</artifactId> -->
+							<!-- <artifactId>maven-scm-provider-jgit</artifactId> -->
+							<artifactId>maven-scm-provider-gitexe</artifactId>
 							<version>1.9.4</version>
 						</dependency>
 					</dependencies>
@@ -327,7 +327,8 @@
 					<dependencies>
 						<dependency>
 							<groupId>org.apache.maven.scm</groupId>
-							<artifactId>maven-scm-provider-jgit</artifactId>
+							<!-- <artifactId>maven-scm-provider-jgit</artifactId> -->
+							<artifactId>maven-scm-provider-gitexe</artifactId>
 							<version>1.9.4</version>
 						</dependency>
 					</dependencies>
