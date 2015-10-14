@@ -81,10 +81,18 @@
 		</snapshotRepository>
 	</distributionManagement>
 
+	<!-- 
 	<scm>
 		<connection>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test1</connection>
 		<url>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test1</url>
 		<developerConnection>scm:git:http://git.intra.weibo.com/shanpeng/scm-git-test1</developerConnection>
+	</scm>
+	 -->
+	
+	<scm>
+		<connection>scm:git:https://github.com/yygymmmmsee/scm-test</connection>
+		<url>scm:git:https://github.com/yygymmmmsee/scm-test</url>
+		<developerConnection>scm:git:https://github.com/yygymmmmsee/scm-test</developerConnection>
 	</scm>
 
 	<dependencyManagement>
@@ -321,7 +329,7 @@
 					<version>1.9.4</version>
 					<configuration>
 						<providerImplementations>
-							<git>jgit</git>
+							<git>gitexe</git>
 						</providerImplementations>
 					</configuration>
 					<dependencies>
