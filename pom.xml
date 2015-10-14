@@ -306,9 +306,6 @@
 							<version>1.9.4</version>
 						</dependency>
 					</dependencies>
-					<configuration>
-						<pushChanges>false</pushChanges>
-					</configuration>
 				</plugin>
 				<!--构建项目站点报告插件 -->
 				<plugin>
