@@ -306,6 +306,10 @@
 							<version>1.9.4</version>
 						</dependency>
 					</dependencies>
+					<configuration>
+						<tagBase>http://git.intra.weibo.com/shanpeng/scm-git-test1/tags</tagBase>
+					    <branchBase>http://git.intra.weibo.com/shanpeng/scm-git-test1/branches</branchBase>
+					</configuration>
 				</plugin>
 				<!--构建项目站点报告插件 -->
 				<plugin>
