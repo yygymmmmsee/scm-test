@@ -23,7 +23,7 @@
 
 	<!-- 全局属性定义 -->
 	<properties>
-		<spring.version>4.1.2.RELEASE</spring.version>
+		<spring.version>5.3.19</spring.version>
 		<struts2.version>2.3.15.1</struts2.version>
 		<hibernate.version>4.3.5.Final</hibernate.version>
 		<shiro.version>1.2.1</shiro.version>
